@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.10.7 on win32)" generated="2024-11-14T19:17:08.574875" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="D:\Github\PythonProject\TestProject\Tests">
+<suite id="s1-s1" name="Testcase1" source="D:\Github\PythonProject\TestProject\Tests\Testcase1.robot">
+<test id="s1-s1-t1" name="Test" line="6">
+<kw name="Log My Specific Username and Password" owner="resources">
+<kw name="Log My Username" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-14T19:17:08.617876" level="INFO">testuser</msg>
+<arg>${Username}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-14T19:17:08.617876" elapsed="0.000000"/>
+</kw>
+<arg>${USERNAME}</arg>
+<status status="PASS" start="2024-11-14T19:17:08.616880" elapsed="0.000996"/>
+</kw>
+<kw name="Log My Password" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-14T19:17:08.617876" level="INFO">demo</msg>
+<arg>${Password}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-14T19:17:08.617876" elapsed="0.000000"/>
+</kw>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2024-11-14T19:17:08.617876" elapsed="0.001004"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-14T19:17:08.618880" level="INFO">This is the final</msg>
+<arg>This is the final</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-14T19:17:08.618880" elapsed="0.000000"/>
+</kw>
+<arg>${DICTIONARY}[username]</arg>
+<arg>${DICTIONARY}[password]</arg>
+<status status="PASS" start="2024-11-14T19:17:08.615879" elapsed="0.003001"/>
+</kw>
+<tag>demo</tag>
+<tag>demo2</tag>
+<status status="PASS" start="2024-11-14T19:17:08.614876" elapsed="0.004004"/>
+</test>
+<doc>This is my first test case</doc>
+<status status="PASS" start="2024-11-14T19:17:08.601879" elapsed="0.017996"/>
+</suite>
+<suite id="s1-s2" name="Testcase2" source="D:\Github\PythonProject\TestProject\Tests\Testcase2.robot">
+<test id="s1-s2-t1" name="Test2" line="5">
+<kw name="Log My Specific Username and Password" owner="resources">
+<kw name="Log My Username" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-14T19:17:08.624882" level="INFO">testuser2</msg>
+<arg>${Username}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-14T19:17:08.624882" elapsed="0.000000"/>
+</kw>
+<arg>${USERNAME}</arg>
+<status status="PASS" start="2024-11-14T19:17:08.624882" elapsed="0.000995"/>
+</kw>
+<kw name="Log My Password" owner="resources">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-14T19:17:08.625877" level="INFO">demo2</msg>
+<arg>${Password}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-14T19:17:08.625877" elapsed="0.000000"/>
+</kw>
+<arg>${PASSWORD}</arg>
+<status status="PASS" start="2024-11-14T19:17:08.625877" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-14T19:17:08.625877" level="INFO">This is the final</msg>
+<arg>This is the final</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-14T19:17:08.625877" elapsed="0.000000"/>
+</kw>
+<arg>${DICTIONARY2}[username]</arg>
+<arg>${DICTIONARY2}[password]</arg>
+<status status="PASS" start="2024-11-14T19:17:08.624882" elapsed="0.000995"/>
+</kw>
+<tag>demo2</tag>
+<status status="PASS" start="2024-11-14T19:17:08.623881" elapsed="0.002998"/>
+</test>
+<status status="PASS" start="2024-11-14T19:17:08.620879" elapsed="0.006000"/>
+</suite>
+<status status="PASS" start="2024-11-14T19:17:08.576879" elapsed="0.050997"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">demo</stat>
+<stat pass="2" fail="0" skip="0">demo2</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Testcase1">Tests.Testcase1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="Testcase2">Tests.Testcase2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
